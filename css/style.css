@@ -450,8 +450,7 @@ h1, h3 {
   font-weight: 100;
 }
 
-div {
-  border: 1px solid Chocolate;
+div {;
 }
 
 /*
@@ -576,6 +575,58 @@ div {
   font-weight: 400;
   margin: 2.5rem 0 1.875rem;
 }
+
+.social .content {
+  margin-top: 8rem;
+}
+
+.social .content p {
+  text-align: center;
+}
+
+.social .content section {
+  display: inline-block;
+  width: 33.3333%;
+  text-align: center;
+  padding: 0.3rem;
+  border: 1px solid black;
+  border-radius: 180px;
+}
+
+.icons {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.icons > li {
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  padding: .5rem 0;
+  border: 1px solid black;
+  border-radius: 1.25rem;
+  margin: 1.25rem .3rem;
+}
+
+.copyright {
+  margin-bottom: 8rem;
+  color: #838994;
+}
+
+.social .twitter {
+  color: #55acee;
+}
+
+.social .facebook {
+  color: #4c66a4;
+}
+
+.social .instagram {
+  color: #3f729b;
+}
+
 
 
 
