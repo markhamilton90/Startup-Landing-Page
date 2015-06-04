@@ -495,9 +495,14 @@ div {;
   margin-left: 25px;
 }
 
-.top-navigation .links .active {
-  color: #4c5058;
-  font-weight: 600;
+.top-navigation .links .active a {
+  color: #4c5048;
+  font-weight: 500;
+}
+
+.top-navigation .links a {
+  text-decoration: none;
+  color: #838994;
 }
 
 .top-navigation .links li a:hover {
@@ -507,7 +512,7 @@ div {;
 
 .introduction {
   height: 45.938rem;
-  border: 1px solid red;
+  overflow: auto;
   background-image: url(../images/background.jpeg);
   background-position: bottom center;
   background-repeat: no-repeat;
@@ -516,7 +521,7 @@ div {;
 
 .introduction .content {
   color: #fff;
-  margin-top: 12rem;
+  margin-top: 17.5rem;
 }
 
 .introduction .content h1 {
@@ -548,13 +553,14 @@ div {;
   }
 
 .cases .content {
-  margin-top: 5rem;
+  margin-top: 7rem;
 }
 
 .cases h2 {
   text-align: center;
   font-weight: 300;
   font-size: 2.7rem;
+  margin-bottom: 3.125rem;
 }
 
 .cases .devices {
@@ -596,23 +602,33 @@ div {;
 .icons {
   list-style-type: none;
   padding: 0;
+  margin: 0;
   text-align: center;
 }
 
 .icons > li {
   display: inline-block;
   width: 2.5rem;
-  height: 2.5rem;
+  height: 2.4rem;
   text-align: center;
   padding: .5rem 0;
-  border: 1px solid black;
+  border: 1px solid LightGray;
   border-radius: 1.25rem;
   margin: 1.25rem .3rem;
 }
 
+.social .join {
+  margin-bottom: 0;
+}
+
+.social .content hr {
+  color: LightGray;
+}
+
 .copyright {
-  margin-bottom: 8rem;
+  margin: 0 0 8rem 0;
   color: #838994;
+  font-weight: 300;
 }
 
 .social .twitter {
